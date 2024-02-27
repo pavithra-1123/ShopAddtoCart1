@@ -10,3 +10,5 @@ function toggleCard1() {
     const cardContent = document.getElementById('cardContent3');
     cardContent.classList.toggle('expanded');
   }
+
+ 

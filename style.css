@@ -31,7 +31,7 @@ body {
     text-align: center;
     padding: 10px; 
     font-weight: bold; 
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: white;
   }
   .line{
@@ -39,6 +39,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     column-gap: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 .line::before, .line::after{
     content: "";
@@ -171,7 +173,13 @@ footer{
   text-align: end;
 }
   
-
+.badge{
+  background-color: #FF6B82;
+  color: white;
+  border-radius:3px 10px ;
+  /* border: 0 10px 0 10px; */
+  margin-left: 440px;
+}
 @media  screen and (min-width : 440px) {
     body{
         margin: 0;
