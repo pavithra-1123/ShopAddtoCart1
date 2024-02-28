@@ -180,7 +180,7 @@ footer{
   /* border: 0 10px 0 10px; */
   margin-left: 440px;
 }
-@media  screen and (min-width : 440px) {
+@media  screen and (min-width : 500px) {
     body{
         margin: 0;
     }
@@ -199,5 +199,10 @@ footer{
     .first1{
         margin: 20px;
         padding: auto;
+    }
+    .badge{
+      margin-left: 440px;
+      
+
     }
 }
